@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": ".babelrc.js",
+  "scripts": {
+    "build": "npx webpack",
+    "watch": "npx webpack watch"
+  },
+  "keywords": [],
+  "author": "Rareview (https://rareview.com)",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
+  }
+}

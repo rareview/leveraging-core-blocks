@@ -1,0 +1,21 @@
+/*
+Theme Name: Demo
+Template: twentytwentyfive
+*/
+
+.wp-block-group.is-style-outlined {
+	border: 1px solid currentcolor;
+	border-radius: 4px;
+	padding: 1rem;
+}
+
+@media (width > 782px) and (width < 1024px) {
+	.wp-block-columns.wp-block-columns--small-desktop-two-columns {
+		flex-wrap: wrap !important;
+		gap: var(--wp--preset--spacing--50);
+	}
+
+	.wp-block-columns.wp-block-columns--small-desktop-two-columns > .wp-block-column {
+		flex: 0 0 calc(50% - var(--wp--preset--spacing--50) / 2);
+	}
+}
